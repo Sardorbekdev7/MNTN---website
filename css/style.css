@@ -35,6 +35,7 @@ body {
 }
 
 .header_img{
+    height: 100vh;
     background-image: url(../images/header3.jpg) !important;
     background-size:  100% auto;
     background-repeat: no-repeat;
@@ -42,7 +43,6 @@ body {
 
 
 .big_navbar .navbar {
-    /* height: 100px; */
     align-items: center;
 }
 .navbar-toggler {
@@ -331,10 +331,17 @@ color: #FFFFFF;
     .navbar {
         align-items: flex-start !important;
     }
+    .header_img{
+        height: 40vh;
+    }
     .header{
-        height: calc(40vh);
+        height: calc(45vh);
         margin-bottom: 50px;
     }
+    .cards {
+        margin-top: 50px !important;
+    }
+    
     .head_text {
         padding-top: 50px;
     }
